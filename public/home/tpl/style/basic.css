@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document 
+	我爱模版：http://www.5imoban.net
+	design by z.k
+*/
+html {
+	/*== overflow-x: hidden;隐藏水平滚动条==*/
+	overflow-y:scroll;/*==保证所有浏览器下都显示垂直滚动条，防止没有滚动条的页面有移动效果==*/
+	-webkit-tap-highlight-color: transparent;/*==Add vertical scrollbar Keeps page centered in all browsers regardless of content height==*/
+	/*==Define maximum text display as 100% to document Corrects text displayed oddly after orientation change in handheld browsers ==*/
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	height: 100%;/*==在IE下body的百分高度需要在html设置此值==*/
+}
+html, body, div, p, ul, li, h1, h2, h3, h4, h5, h6, dl, dd, dt, form, input, select, button, textarea, iframe, table, th, td {margin: 0px;padding: 0px;}
+body{font:12px "微软雅黑","黑体","宋体",Arial, Helvetica, sans-serif;  background:url("../images/body_top_bg.png")/*tpa=http://www.5imoban.net/tpl/images/body_top_bg.png*/ repeat-x center top;/* cursor:url('../images/curdefault.cur),auto;'), url(../images/curdefault.cur),auto;), auto;*/}
+a{text-decoration:none; color:#000; blr:expression(this.onFocus=this.blur())}/*去掉a标签的虚线框*/
+ul,li{list-style-type:none;}
+a img{border:none;}
+em,i{font-style:normal;}
+strong,b{font-weight:normal;}
+#wrap{text-align:left;}
+.fl,.fr{float:left; display:inline;} /*防止出现双边距*/
+.fr{float:right;}
+
+.clear{clear:both;}
+
+.w1000{width:1000px;overflow:hidden; _zoom:1; margin:0 auto;}
+.w980{width:980px;overflow:hidden; _zoom:1; margin:0 auto;}
+
+.pc_overflow{overflow:hidden; _zoom:1;}/*防止浮动塌陷*/
+
+.ml10{margin-left:10px;}
+.ml20{margin-left:20px;}
+.ml30{margin-left:30px;}
+.ml40{margin-left:40px;}
+
+.mt10{margin-top:10px;}
+.mt5{margin-top:5px;}
+.mt15{margin-top:15px;}
+.mt30{margin-top:30px;}
+
+.mr20{margin-right:20px;}
+.mr40{margin-right:40px;}
+
+.mb20{margin-bottom:20px;}
+
+.pt10{padding-top:10px;}
+.pt15{padding-top:15px;}
+.pt20{padding-top:20px;}
+.pl10{padding-left:10px;}
+.pl20{padding-left:20px;}
+
+.colororange{color:#D92B00 !important;}
+
+/*ifie6*/
+#ifie6{height:30px; line-height:30px; background:#F00; font-size:16px; color:#fff;}
+#ifie6 span{float:left; display:inline;}
+#ifie6 .ifie6_x{font-family:Arial, Helvetica, sans-serif; width:28px; height:28px; color:#000; border:1px solid #000;}
+#ifie6 .ifie6_x:hover{color:#fff; border-color:#fff; cursor:pointer;}

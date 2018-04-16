@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document 
+	我爱模版：http://www.5imoban.net
+	design by z.k
+*/
+#main_content_left{width:660px;}
+#main_content_left #position span{width:610px;}
+#main_content_title,#main_content_information,#main_content_body,main_content_comments{color:#000; font-size:14px; width:640px;}
+#main_content_title{font-size:22px; text-align:center; text-shadow:1px 1px 3px #CCC; border-left:5px solid #000;}
+#main_content_information{border-bottom:1px solid #999; padding-bottom:10px; border-left:5px solid #000;}
+#main_content_information dd{font-size:12px; float:left; display:inline; margin:5px 0 0 10px;}
+#main_content_body{text-align:left; border-bottom:1px dashed #CCC; padding-bottom:10px; line-height:25px; padding-top:15px;}
+#main_content_body a{color:#FFAA00;}
+#main_content_body a:hover{text-decoration:underline;}
+#main_content_body b,#main_content_body strong{font-weight:bold !important;}
+#main_content_body img{
+	cursor:pointer;
+	max-width:636px !important;
+	width:expression(this.width>600?"600px":this.width);
+}
+#main_content_body h1,#main_content_body h2,#main_content_body h3,#main_content_body h4,#main_content_body h5,#main_content_body h6{line-height:180%; margin-top:15px; margin-bottom:10px;}
+#content_tag{color:#000;}
+#content_tag li{float:left; display:inline; margin:5px;}
+#content_down a{float:left; display:inline; background:url("../images/down_btn.png")/*tpa=http://www.5imoban.net/tpl/images/down_btn.png*/; width:246px; height:64px; text-align:center; line-height:45px; color:#fff; font-size:16px; font-weight:bold; margin:5px; margin-right:15px; text-indent:-9999px;}
+#content_down a#content_down_1{background-position:0 -192px;}
+#content_down a#content_down_1:hover{background-position:0 -128px;}
+#content_down a#content_down_2{background-position:0 -64px;}
+#content_down a#content_down_2:hover{background-position:0 0;}
+#content_down a#content_down_3{background-position:0 -320px;}
+#content_down a#content_down_3:hover{background-position:0 -256px;}
+#main_content_share{width:456px; height:38px; margin:0 0 10px 10px;}
+#main_content_love{width:160px; margin:0 auto 10px auto;}
+#bdshare_s h6{color:#333;}
+#main_content_articletuijian dt{height:30px; font-size:16px; background:#999; border-left:10px solid #666; line-height:30px; padding-left:10px; width:640px; color:#fff;}
+#main_content_articletuijian dd{float:left; display:inline; width:290px; padding-left:10px; background:url("../images/index_texiao_list_ico.jpg")/*tpa=http://www.5imoban.net/tpl/images/index_texiao_list_ico.jpg*/ no-repeat left center; margin:10px 10px 0 0;}
+
+/*文章页代码*/
+#main_content_sidebar{width:275px; margin-left:10px;}
+.sidebar_title{height:30px; line-height:30px; font-size:16px; font-weight:bold; color:#000; background:url("../images/sidebar_title_bg.png")/*tpa=http://www.5imoban.net/tpl/images/sidebar_title_bg.png*/;}
+.sidebar_title span{display:block; margin-left:10px; padding-left:15px; background:url("../images/sidebar_title_ico2.png")/*tpa=http://www.5imoban.net/tpl/images/sidebar_title_ico2.png*/ no-repeat left center;}
+span.active{background-image:url("../images/sidebar_title_ico1.png")/*tpa=http://www.5imoban.net/tpl/images/sidebar_title_ico1.png*/;}
+.sidebar_content,.sidebar_content_tag{border:1px solid #E5E5E5; border-top:none; border-bottom:none; overflow:hidden; _zoom:1;}
+.sidebar_content li{padding-left:10px; background:url("../images/index_texiao_list_ico.jpg")/*tpa=http://www.5imoban.net/tpl/images/index_texiao_list_ico.jpg*/ no-repeat left center; margin:10px 5px 0 10px;}
+.sidebar_bottom{background:url("../images/sidebar_bottom_bg.png")/*tpa=http://www.5imoban.net/tpl/images/sidebar_bottom_bg.png*/; height:5px;}
+.sidebar_content_tag li{float:left; display:inline; margin:5px;}
+
+/*next prev*/
+#prevarc,#nextarc{overflow:hidden; position:fixed; bottom:330px; z-index:9998;}
+#prevarc{left:0px;}
+#nextarc{right:0px;}
+#prevarc a,#nextarc a{background:url("../images/button_prevnext.png")/*tpa=http://www.5imoban.net/tpl/images/button_prevnext.png*/ no-repeat 0 -180px; display:block; text-indent:-9999px; width:60px; height:90px;}
+#prevarc a:hover{background-position:0 0;}
+#nextarc a{background-position:0 -270px;}
+#nextarc a:hover{background-position:0 -90px;}
+
+/*文章页大图*/
+#article_bigimg{background:url("../images/bigimg_bg.png")/*tpa=http://www.5imoban.net/tpl/images/bigimg_bg.png*/; width:100%; position:absolute; top:0; left:0; z-index:9999; display:none;}
+#article_bigimg div{text-align:center;}
+
+/*ty_title*/
+.ty_title{font-size:1.3em; font-weight:bold; margin:10px 5px; margin-bottom:5px; padding-left:12px; border-left:3px solid #000;}

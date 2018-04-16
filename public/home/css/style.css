@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* css document */
+#banner216{ width: 998px; height: 216px; overflow: hidden;}
+#banner216 img{width: 998px; height: 216px;}
+
+#bodyMain{ margin: 0px auto; margin-top: 12px; padding: 0px; background:  repeat-y; width: 1002px;}
+.cl10{ margin: 0px auto; padding: 0px; height: 10px; clear: both; background: no-repeat; overflow: hidden;}
+#MainL{ float: left; width: 200px; overflow: hidden;}
+#MainL .leftNav{ background:  top no-repeat;}
+#MainL .leftNav h3{ height: 36px; line-height: 36px; padding-left: 12px; font-size: 14px; color: #fff;}
+#MainL .leftNav ul{ padding-top: 4px; padding-left: 7px; padding-right: 7px;}
+#MainL .leftNav ul li{ padding-top: 4px; height: 28px; overflow: hidden; font-size: 13px;}
+#MainL .leftNav ul li a{ color: #000; height: 28px; padding-left: 20px; line-height: 26px; background:  no-repeat; display: block;}
+#MainL .leftNav ul li a:hover{ color: #fff; text-decoration: none; background:  no-repeat;}
+#MainL .leftNav .cur{ color: #fff; text-decoration: none; background:  no-repeat;}
+#MainL .LeftJjfa{ padding-top: 12px;}
+#MainL .LeftJjfa h3{ height: 24px; padding-left: 12px; color: #fff; font-size: 14px; color: #fff; background: #2F8808; line-height: 24px; padding-right: 12px;}
+#MainL .LeftJjfa h3 a{ float: right; color: #fff; font-size: 12px; font-weight: normal;}
+#MainL .LeftJjfa ul{ padding-left: 8px; padding-right: 8px; padding-top: 8px;}
+#MainL .LeftJjfa ul li{ line-height: 24px; border-bottom: 1px #ccc dotted; padding-left: 6px;}
+#MainL .LeftKhjz{ padding-top: 12px;}
+#MainL .LeftKhjz h3{ height: 24px; padding-left: 12px; color: #fff; font-size: 14px; color: #fff; background: #2F8808; line-height: 24px; padding-right: 12px;}
+#MainL .LeftKhjz h3 a{ float: right; color: #fff; font-size: 12px; font-weight: normal;}
+#MainL .LeftKhjz dl{ margin-left: 8px; margin-right: 8px; padding-top: 4px; padding-bottom: 8px; border-bottom: 1px #ccc dotted;}
+#MainL .LeftKhjz dd{ height: 65px; overflow: hidden; line-height: 17px; color: #666;}
+#MainL .LeftKhjz dd img{ float: left; width: 100px; height: 65px; margin-right: 8px;}
+#MainL .LeftKhjz dt{ height: 24px; line-height: 24px; font-weight: bold; overflow: hidden;}
+#MainL .LeftFaq{ padding-top: 12px; height: 257px; overflow: hidden;}
+#MainL .LeftFaq h3{ height: 24px; padding-left: 12px; color: #fff; font-size: 14px; color: #fff; background: #2F8808; line-height: 24px; margin-bottom: 4px; padding-right: 12px;}
+#MainL .LeftFaq h3 a{ float: right; color: #fff; font-size: 12px; font-weight: normal;}
+#MainL .LeftFaq dl{ height: 60px; border-bottom: 1px #c7c7c7 dotted; padding-top: 8px; padding-bottom: 6px; margin-left: 6px; margin-right: 8px;}
+#MainL .LeftFaq dt{ height: 20px; line-height: 20px; background: left no-repeat; padding-left: 20px; font-weight: bold; overflow: hidden;}
+#MainL .LeftFaq dd{ padding-left: 20px; height: 40px; line-height: 20px; color: #666; overflow: hidden;}
+#MainL .LeftList{ padding-top: 12px; overflow: hidden;}
+#MainL .LeftList h3{ height: 24px; padding-left: 12px; color: #fff; font-size: 14px; color: #fff; background: #2F8808; line-height: 24px; padding-right: 12px;}
+#MainL .LeftList h3 a{ float: right; color: #fff; font-size: 12px; font-weight: normal;}
+#MainL .LeftList ul{ padding-left: 8px; padding-right: 8px;}
+#MainL .LeftList ul li{height: 62px; overflow: hidden; line-height: 20px; padding-top: 8px; color: #666;}
+#MainL .LeftList ul li img{border: 1px #ccc solid; height: 60px; width: 80px; float: left; margin-right: 8px;}
+#MainL .LeftList ul li img:hover{border: 1px #2F8808 solid;}
+#MainL .LeftCon{ padding-top: 12px; overflow: hidden;}
+#MainL .LeftCon h3{ height: 24px; padding-left: 12px; color: #fff; font-size: 14px; color: #fff; background: #2F8808; line-height: 24px; margin-bottom: 4px; padding-right: 12px;}
+#MainL .LeftCon h3 a{ float: right; color: #fff; font-size: 12px; font-weight: normal;}
+#MainL .LeftCon ul{ background: top center no-repeat; padding-top: 86px; padding-left: 8px; padding-right: 8px;}
+#MainL .LeftCon ul li{ line-height: 20px; padding-top: 2px;}
+#MainR{ float: right; width: 790px; overflow:hidden;}
+#MR_dh{ background:  no-repeat; height: 46px; overflow: hidden; line-height: 36px; font-size: 14px; padding-left: 12px; color: #000;}
+#MR_dh a{ color: #000;}
+#MR_dh a:hover{ color: #f30;}
+
+#MR_proList{ padding-left: 10px; padding-top: 8px;}
+#MR_proList li{ float: left; width: 240px; height: 227px; overflow: hidden; padding: 8px;}
+#MR_proList .pic{ width: 240px; height: 185px; overflow: hidden;}
+#MR_proList .pic img{ width: 232px; height: 175px; padding: 1px; border: 3px #ccc solid;}
+#MR_proList .pic img:hover{border: 3px #2F8808 solid;}
+#MR_proList .txt{ height: 21px; line-height: 21px; text-align:center; color: #666;  overflow: hidden;}
+#MR_proList .txt a{ font-weight: bold;}
+
+#MR_proShow{ padding-left: 21px; padding-right: 21px; padding-top: 18px; height: 350px; overflow: hidden;}
+#MR_proShow .leftPic{ float: left; width: 370px; overflow: hidden;}
+#MR_proShow .BigPic{ width: 360px; height: 271px; padding: 1px; border: 2px #eee solid; overflow: hidden;}
+#MR_proShow .BigPic img{ width: 360px; height: 271px;}
+#MR_proShow .SamPic{ padding-top: 5px; height: 68px; overflow: hidden;}
+#MR_proShow .SamPic img{ border: 1px #eee solid; width: 88px; margin-right: 2px; height: 66px;}
+#MR_proShow .SamPic .cur{ border: 1px #2F8808 solid;}
+#MR_proShow .rightshow{ width: 360px; float: right;}
+#MR_proShow .rightshow h1{ font-size: 20px; color: #000; line-height: 32px; padding-bottom: 8px; border-bottom: 1px #ccc solid; padding-left: 8px;}
+#MR_proShow .rightshow li{ border-bottom: 1px #ccc dotted; padding-left: 8px; padding-top: 5px; padding-bottom: 5px; line-height: 24px; overflow: hidden;}
+#MR_proShow .rightshow span{ color: #666;}
+#MR_proShow .rightshow .tel{ font-size: 20px; color:#2F8808 }
+#MR_proShow .rightshow .pl{color:#2F8808}
+.h24{ height: 24px;}
+
+.MP_title{ margin-right: 21px; margin-left: 21px; height: 24px; margin-top: 20px; line-height: 24px; padding-left: 12px; color: #fff; font-size: 14px; font-weight: bold; background: #2F8808;}
+.MP_title2{ margin-right: 21px; margin-left: 21px; height: 24px; margin-top: 20px; line-height: 24px; padding-left: 12px; color: #000; font-size: 14px; font-weight: bold; background: #ccc;}
+#MP_cpxq{ padding-top: 12px; padding-left: 21px; padding-right: 21px; line-height: 200%;}
+#MR_showlist{ padding-left: 13px;}
+#MR_showlist li{ width: 175px; padding-left: 8px; padding-right: 8px; float: left; overflow: hidden; padding-top: 10px;}
+#MR_showlist .pic { height: 135px; overflow: hidden;}
+#MR_showlist .pic img{ border: 1px #ccc solid; padding: 1px; width: 171px; height: 129px;}
+#MR_showlist .pic img:hover{ border: 1px #2F8808 solid;}
+#MR_showlist .txt{ height: 20px; line-height: 20px; overflow: hidden; text-align:center;}
+#MR_pl{ padding-left: 21px; padding-right: 21px; padding-top: 12px; line-height: 120%;}
+
+#MP_scsb{padding-left: 10px; padding-top: 8px;}
+#MP_scsb li{ float: left; width: 240px; height: 186px; overflow: hidden; padding: 8px;}
+#MP_scsb .pic{ width: 240px; height: 165px; overflow: hidden;}
+#MP_scsb .pic img{ width: 236px; height: 157px; padding: 1px; border: 1px #ccc solid;}
+#MP_scsb .pic img:hover{border: 1px #2F8808 solid;}
+#MP_scsb .txt{ height: 21px; line-height: 21px; text-align:center; overflow: hidden;}
+
+#MP_honor{padding-left: 10px; padding-top: 8px;}
+#MP_honor li{ float: left; width: 240px; height: 366px; overflow: hidden; padding: 8px;}
+#MP_honor .pic{ width: 240px; height: 345px; overflow: hidden;}
+#MP_honor .pic img{ width: 236px; height: 335px; padding: 1px; border: 1px #ccc solid;}
+#MP_honor .pic img:hover{border: 1px #2F8808 solid;}
+#MP_honor .txt{ height: 21px; line-height: 21px; text-align:center; overflow: hidden;}
+
+#MP_case{padding-left: 10px; padding-top: 8px;}
+#MP_case li{ float: left; width: 240px; height: 206px; overflow: hidden; padding: 8px;}
+#MP_case .pic{ width: 240px; height: 185px; overflow: hidden;}
+#MP_case .pic img{ width: 236px; height: 177px; padding: 1px; border: 1px #ccc solid;}
+#MP_case .pic img:hover{border: 1px #2F8808 solid;}
+#MP_case .txt{ height: 21px; line-height: 21px; text-align:center; overflow: hidden;}
+
+#MP_client{padding-left: 10px; padding-top: 8px;}
+#MP_client li{ float: left; width: 240px; height: 227px; overflow: hidden; padding: 8px;}
+#MP_client .pic{ width: 240px; height: 160px; overflow: hidden;}
+#MP_client .pic img{ width: 236px; height: 153px; padding: 1px; border: 1px #ccc solid;}
+#MP_client .pic img:hover{border: 1px #2F8808 solid;}
+#MP_client .title{ height: 24px; background: #CECECE; line-height: 24px; font-weight: bold;}
+#MP_client .txt{ height: 40px; line-height: 20px; color: #666; padding-top: 3px; text-align:center; overflow: hidden;}
+
+#MP_news{ padding-left: 21px; padding-right: 21px;}
+#MP_news dl{ padding-top: 8px; padding-bottom: 8px; overflow: hidden; border-bottom: 1px #ccc dotted;}
+#MP_news dt{ font-size: 14px; height: 24px; line-height: 24px; font-weight: bold;}
+#MP_news dt span{ float: right; color: #999; font-size: 12px; font-weight: normal; padding-right: 12px;}
+#MP_news dd{ font-size: 12px; color: #666; line-height: 23px;}
+#MP_news .pic{ height: 94px; padding-top: 12px; padding-bottom: 12px;}
+#MP_news .pic img{ float: left; width: 124px; border: 1px #ccc solid; padding: 1px;}
+#MP_news .pic dt{ float:right; width: 610px;}
+#MP_news .pic dd{ float: right; width: 610px; height: 70px; overflow: hidden;}
+#MP_news li{ padding: 8px; overflow: hidden; height: 23px; line-height: 23px; border-bottom: 1px #ccc dotted;}
+#MP_news li span{ float: right; color: #999; font-size: 12px; font-weight: normal;}
+
+#MP_faq{ padding-left: 21px; padding-right: 21px;}
+#MP_faq dl{ height: 69px; border-bottom: 1px #c7c7c7 dotted; padding-top: 12px; padding-bottom: 12px;}
+#MP_faq dt{ height: 24px; line-height: 24px; background: left no-repeat; padding-left: 20px; font-size: 14px; font-weight: bold;}
+#MP_faq dd{ padding-left: 20px; padding-top: 5px; height: 40px; line-height: 20px; color: #666;  overflow: hidden;}
+
+#MR_nrTitle{ text-align:center; padding-left: 21px; padding-right: 21px; padding-top: 12px;}
+#MR_nrTitle h1{ font-size: 20px; color: #000; line-height: 30px;}
+#MR_nrTitle h6{ padding-top: 5px; height: 20px; line-height: 20px; color: #999; font-size: 12px; font-weight: normal;}
+#MR_nrTitle h6 span{ padding-left: 6px; padding-right: 6px;}
+#MR_nrPic{ padding-left: 21px; padding-right: 21px; text-align:center; padding-top: 8px;}
+#MR_nrPic img{ border: 2px #eee solid; padding: 2px; max-width: 740px;}
+#MR_nrFx{ height: 24px; overflow: hidden; padding-left: 21px; padding-top: 8px;}
+#MR_nrqt{ padding-top: 12px; line-height: 24px; padding-left: 21px; padding-right: 21px; color: #2F8808;}
+
+
+
+/*CSS pageinfo style pagination*/
+#pageinfo {padding-top: 12px; padding-right: 0px; padding-left: 0px; padding-bottom: 10px; height: 30px; line-height:30px; font-size: 12px; text-align:center;}
+#pageinfo a{padding-right: 5px; padding-bottom: 3px; padding-left: 5px; margin: 0px 2px; padding-top: 3px; text-decoration: none; border: 1px solid #ccc;}
+#pageinfo a:hover {border: 1px solid #2F8808;}
+#pageinfo a:active {border: 1px solid #2F8808;}
+#pageinfo span{padding-right: 5px; padding-left: 5px; padding-bottom: 3px; padding-top: 3px; margin: 0px 2px; border: 1px solid #ccc;}
+#pageinfo span.cur {font-weight: bold; color: #fff;  background: #2F8808; border: 1px solid #2F8808;}
